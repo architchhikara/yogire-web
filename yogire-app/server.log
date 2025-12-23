@@ -1,0 +1,509 @@
+
+> yogire-app@0.0.0 start
+> ng serve
+
+❯ Building...
+✔ Building...
+Initial chunk files | Names         |  Raw size
+main.js             | main          | 105.77 kB |
+styles.css          | styles        |  20.67 kB |
+
+                    | Initial total | 126.44 kB
+
+Application bundle generation complete. [2.404 seconds] - 2025-12-23T12:44:19.972Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m
+
+    src/styles.scss:1:8:
+[37m      1 │ @import [32m[37m"tailwindcss";
+        ╵         [32m^[0m
+
+
+  Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m
+
+  The plugin "angular-sass" was triggered by this import
+
+    angular:styles/global:styles:1:8:
+[37m      1 │ @import [32m'src/styles.scss'[37m;
+        ╵         [32m~~~~~~~~~~~~~~~~~[0m
+
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:4200/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.555 seconds] - 2025-12-23T13:02:55.212Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m
+
+    src/styles.scss:1:8:
+[37m      1 │ @import [32m[37m"tailwindcss";
+        ╵         [32m^[0m
+
+
+  Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m
+
+  The plugin "angular-sass" was triggered by this import
+
+    angular:styles/global:styles:1:8:
+[37m      1 │ @import [32m'src/styles.scss'[37m;
+        ╵         [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/footer/footer.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/header/header.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/hero/hero.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/offerings/offerings.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/aahar/aahar.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/agastya/agastya.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/agni/agni.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/dwijas/dwijas.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/home.ts:5:0:
+[37m      5 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/srishti/srishti.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/yogafest/yogafest.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.448 seconds] - 2025-12-23T13:02:55.775Z
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m
+
+    src/styles.scss:1:8:
+[37m      1 │ @import [32m[37m"tailwindcss";
+        ╵         [32m^[0m
+
+
+  Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m
+
+  The plugin "angular-sass" was triggered by this import
+
+    angular:styles/global:styles:1:8:
+[37m      1 │ @import [32m'src/styles.scss'[37m;
+        ╵         [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCan't find stylesheet to import.
+  ╷
+1 │ @import "tailwindcss";
+  │         ^^^^^^^^^^^^^
+  ╵
+  src/styles.scss 1:9  root stylesheet[0m [1m[35m[plugin angular-sass][0m
+
+    angular:styles/global:styles:1:8:
+[37m      1 │ @import [32m'src/styles.scss'[37m;
+        ╵         [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS6053: File '/app/yogire-app/node_modules/typescript/lib/lib.es2022.full.d.ts' not found.
+  The file is in the program because:
+    Default library for target 'es2022'[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Array'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Boolean'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'CallableFunction'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Function'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'IArguments'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'NewableFunction'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Number'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'Object'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'RegExp'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2318: Cannot find global type 'String'.[0m [1m[35m[plugin angular-compiler][0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.config.ts:1:70:
+[37m      1 │ ...nConfig, provideBrowserGlobalErrorListeners } from [32m'@angular/core'[37m;
+        ╵                                                       [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.config.ts:2:30:
+[37m      2 │ import { provideRouter } from [32m'@angular/router'[37m;
+        ╵                               [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:1:23:
+[37m      1 │ import { Routes } from [32m'@angular/router'[37m;
+        ╵                        [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:1:34:
+[37m      1 │ import { Component, signal } from [32m'@angular/core'[37m;
+        ╵                                   [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:2:29:
+[37m      2 │ import { RouterOutlet } from [32m'@angular/router'[37m;
+        ╵                              [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:6:12:
+[37m      6 │   imports: [[32mRouterOutlet[37m],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/app.ts:6:12:
+[37m      6 │   imports: [[32mRouterOutlet[37m],
+        ╵             [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/footer/footer.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/footer/footer.ts:2:27:
+[37m      2 │ import { RouterLink } from [32m'@angular/router'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/footer/footer.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/footer/footer.ts:7:12:
+[37m      7 │   imports: [[32mRouterLink[37m],
+        ╵             [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/components/footer/footer.ts:7:12:
+[37m      7 │   imports: [[32mRouterLink[37m],
+        ╵             [32m~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'Date'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/footer/footer.ts:12:20:
+[37m      12 │   currentYear = new [32mDate[37m().getFullYear();
+         ╵                     [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/header/header.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/header/header.ts:2:27:
+[37m      2 │ import { RouterLink } from [32m'@angular/router'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/header/header.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/header/header.ts:7:12:
+[37m      7 │   imports: [[32mRouterLink[37m],
+        ╵             [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/components/header/header.ts:7:12:
+[37m      7 │   imports: [[32mRouterLink[37m],
+        ╵             [32m~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/hero/hero.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/hero/hero.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/offerings/offerings.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/router' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/offerings/offerings.ts:2:27:
+[37m      2 │ import { RouterLink } from [32m'@angular/router'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/offerings/offerings.ts:4:0:
+[37m      4 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/components/offerings/offerings.ts:7:12:
+[37m      7 │   imports: [[32mRouterLink[37m],
+        ╵             [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/components/offerings/offerings.ts:7:12:
+[37m      7 │   imports: [[32mRouterLink[37m],
+        ╵             [32m~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/aahar/aahar.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/aahar/aahar.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/agastya/agastya.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/agastya/agastya.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/agni/agni.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/agni/agni.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/dwijas/dwijas.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/dwijas/dwijas.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/home.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/home.ts:5:0:
+[37m      5 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/srishti/srishti.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/srishti/srishti.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/core' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/yogafest/yogafest.ts:1:26:
+[37m      1 │ import { Component } from [32m'@angular/core'[37m;
+        ╵                           [32m~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2354: This syntax requires an imported helper but module 'tslib' cannot be found.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/yogafest/yogafest.ts:3:0:
+[37m      3 │ [32m@Component({[37m
+        ╵ [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@angular/platform-browser' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/main.ts:1:37:
+[37m      1 │ import { bootstrapApplication } from [32m'@angular/platform-browser'[37m;
+        ╵                                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'err' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/main.ts:6:10:
+[37m      6 │   .catch(([32merr[37m) => console.error(err));
+        ╵           [32m~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2584: Cannot find name 'console'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/main.ts:6:18:
+[37m      6 │   .catch((err) => [32mconsole[37m.error(err));
+        ╵                   [32m~~~~~~~[0m
